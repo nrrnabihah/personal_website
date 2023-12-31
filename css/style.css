@@ -1,0 +1,80 @@
+body
+{
+	font-family: Georgia; 
+    padding: 10px; 
+    background: burlywood;
+}
+.header
+{ 
+   	padding: 30px; 
+    text-align: center; 
+    background: burlywood;
+}
+.header h1
+{ 
+    font-size: 50px; 
+} 
+.topnav 
+{ 
+    overflow: hidden; 
+    background-color:  rosybrown; 
+}
+.topnav a
+{ 
+    font-size: 18px;
+    float: left; 
+    display: block; 
+    color: black; 
+    text-align: center; 
+    padding: 20px 24.9px; 
+    text-decoration: none; 
+    margin-left: 2%;
+    margin-right: 2%;
+} 
+.topnav a:hover
+{ 
+  	background-color: beige; 
+} 
+a:active
+{ 
+    color: salmon;
+    background-color: transparent;
+    text-decoration: none;
+} 
+.leftcolumn
+{    
+    float: left; 
+    width: 100%; 
+} 
+.rightcolumn
+{ 
+    float: left; 
+    width: 25%; 
+    background-color: burlywood; 
+   	padding-left: 20px; 
+} 
+.fakeimg
+{ 
+    background-color: burlywood; 
+    width: 100%; 
+    padding: 20px; 
+} 
+.card
+{
+    background-color: burlywood; 
+    padding: 20px; 
+    margin-top: 20px; 
+}
+.row:after 
+{ 
+    content: ""; 
+    display: table; 
+    clear: both; 
+}
+.footer
+{ 
+    padding: 20px; 
+    text-align: center; 
+    background: burlywood; 
+    margin-top: 20px; 
+}
